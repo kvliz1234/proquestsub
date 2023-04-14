@@ -17,7 +17,9 @@
 ## Git Branch
 `git branch` is used to see list of available branch on local repository
 
+# To change the remote to ssh
 
+'git remote' set-url origin git@github.com :owner/repository.git
 
 
 
