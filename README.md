@@ -69,6 +69,20 @@ Usage: git branch
 This command lists all the local branches in the current repository.
 Usage: git branch [branch name]
 This command creates a new branch.
+## Github authentication method
+## Plugins
+
+Head to Manage Jenkins > Manage Plugins and install the Github Authentication plugin.
+
+Jenkins will download the plugin, and they'll be available after a restart of Jenkins.
+
+##GitHub Auth Plugin
+Head to Manage Jenkins > Configure Global Security.
+Under Security Realm, choose "Github Authentication Plugin"
+Head to GitHub.com and create an application under the organization (shipping-docker for me) we'll use to authenticate against.
+Homepage: http://<server-hostname>
+Auth callback url: http://<server-hostname>/securityRealm/finishLogin
+Fill in Client ID and Secret
 
 
 
