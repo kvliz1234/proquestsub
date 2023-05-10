@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../../awesome-compose/flask-redis"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
