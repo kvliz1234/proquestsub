@@ -83,6 +83,7 @@ Head to GitHub.com and create an application under the organization (shipping-do
 Homepage: http://<server-hostname>
 Auth callback url: http://<server-hostname>/securityRealm/finishLogin
 Fill in Client ID and Secret
+adding terraform 
 
 
 
